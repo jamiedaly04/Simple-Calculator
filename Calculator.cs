@@ -2,7 +2,7 @@
 
 namespace Simple_Calculator
 {
-    public class Calculator : CalcFuntions
+    public class Calculator : CalcFunctions
     {
         static void Main(string[] args)
         {
@@ -16,7 +16,7 @@ namespace Simple_Calculator
             string operation = Console.ReadLine();
 
             Console.WriteLine("Your result is:");
-
+            
             switch (operation.Trim().ToLower())
             {
                 case "add":

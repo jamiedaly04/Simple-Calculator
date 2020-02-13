@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Simple_Calculator
 {
-    public class CalcFuntions
+    public class CalcFunctions
     {
         public static void CalculatorAdd(int num1, int num2)
         {
