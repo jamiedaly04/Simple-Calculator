@@ -5,14 +5,20 @@ namespace Simple_Calculator
 {
     public class Calculator : CalcFunctions
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            appDialog();
-            restartChoice();
+            //Runs main application using methods created in CalcFunctions class
+            CalcFunctions accessor = new CalcFunctions();
 
-            //LIST OF FIXES - 
-            //FIX WRONG NUMBER VALUES EXCEPTION HANDLING
-            //FIX SYMBOL INCORRECT EXCEPTION HANDLING
+            Console.WriteLine("\n----------------------------");
+            accessor.firstNumInput();
+            accessor.secondNumInput();
+            accessor.operation();
+            accessor.restartChoice();
+
+            //TO DO LIST - 
+            //UNIT TESTING
+            
         }
 
     }
